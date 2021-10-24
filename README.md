@@ -1,10 +1,24 @@
 # facetoemoji
 Reconhecimento facial com OpenCV em python para gerar fotos com emojis no lugar dos rostos reconhecidos
 
+## Dependências
+* Python
+* NumPy
+* OpenCV 3
 
-Código fonte base para o reconhecimento facial extraído de: `https://realpython.com/face-detection-in-python-using-a-webcam/`
+## Forma de uso
+```
+python live.py <diretório de saída>
+Exemplo: "python live.py /home/eas/output"
+```
 
-Função para unir 2 imagens com OpenCV: `https://stackoverflow.com/questions/14063070/overlay-a-smaller-image-on-a-larger-image-python-opencv`
+Enquanto o programa executar, pressione `ESPAÇO` para registrar a foto quando rostos estiverem sendo reconhecidos e `ESC` para sair.
+As fotos serão armazenadas no <diretório de saída>.
 
-Emoji pack de "Adrian Garza" (https://vetoresdmg.blogspot.com/2018/11/emojis-de-whatsapp-free-download-pack.html)
+Garanta que o diretório "emojis" esteja no mesmo nível no script "live.py"
+
+## Recursos utilizados:
+* Código fonte base para o reconhecimento facial extraído de: https://realpython.com/face-detection-in-python-using-a-webcam/
+* Função para unir 2 imagens com OpenCV: https://stackoverflow.com/questions/14063070/overlay-a-smaller-image-on-a-larger-image-python-opencv
+* Emoji pack de "Adrian Garza" (https://vetoresdmg.blogspot.com/2018/11/emojis-de-whatsapp-free-download-pack.html)
 
