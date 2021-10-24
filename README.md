@@ -16,6 +16,7 @@ Enquanto o programa executar, pressione `ESPAÇO` para registrar a foto quando r
 As fotos serão armazenadas no <diretório de saída>.
 
 Garanta que o diretório "emojis" esteja no mesmo nível no script "live.py"
+Se desejar alterar o conjunto de emojis, basta trocar as figuras do diretório "emojis" (use o formato PNG com transparência)
 
 ## Recursos utilizados:
 * Código fonte base para o reconhecimento facial extraído de: https://realpython.com/face-detection-in-python-using-a-webcam/
